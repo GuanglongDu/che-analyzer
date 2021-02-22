@@ -1,0 +1,16 @@
+apiVersion: v2
+publisher: Davydu
+name: copilot
+version: 2.0.0
+type: VS Code extension
+displayName: Copilot 
+title: Copilot
+description: Copilot Analyzer
+icon: https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/master/dependencies/che-plugin-registry/resources/images/default.svg?sanitize=true
+repository: https://github.com/GuanglongDu/che-analyzer
+category: Language
+firstPublicationDate: '2021-02-22'
+spec:
+  extensions:
+  - "{{REPOSITORY}}/copilot-vscode-2.0.0.vsix"
+latestUpdateDate: "2020-02-22"
