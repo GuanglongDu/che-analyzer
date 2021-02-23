@@ -12,5 +12,5 @@ category: Language
 firstPublicationDate: '2021-02-22'
 spec:
   extensions:
-  - "https://github.com/GuanglongDu/che-analyzer/releases/download/2.0.1/copilot-vscode-2.0.1.vsix"
+  - "https://github.com/GuanglongDu/che-analyzer/releases/download/2.0.2/copilot-vscode-2.0.2.vsix"
 latestUpdateDate: "2020-02-22"
