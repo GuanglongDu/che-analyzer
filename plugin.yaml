@@ -12,12 +12,8 @@ category: Language
 firstPublicationDate: '2021-02-22'
 spec:
   containers:
-    endpoints:
-        - name: copilot
-          attributes:
-            protocol: http
-            public: 'true'
-          port: 8777
+    ports:
+        - exposedPort: 8777
     command:
         - /bin/sh
     args:
