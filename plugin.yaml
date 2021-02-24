@@ -11,6 +11,16 @@ repository: https://github.com/GuanglongDu/che-analyzer
 category: Language
 firstPublicationDate: '2021-02-22'
 spec:
+  endpoints:
+    - name: "copilot"
+      public: true
+      targetPort: 8777
+      attributes:
+        protocol: http
+        type: copilot
+        secure: true
+        cookiesAuthEnabled: true
+        discoverable: false
   extensions:
   - "https://github.com/GuanglongDu/che-analyzer/releases/download/2.0.3/copilot-vscode-2.0.3.vsix"
 latestUpdateDate: "2020-02-22"
