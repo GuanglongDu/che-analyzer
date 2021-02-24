@@ -12,18 +12,18 @@ category: Language
 firstPublicationDate: '2021-02-22'
 spec:
   containers:
-    ports:
-        - exposedPort: 8777
-    command:
-        - /bin/sh
-    args:
+    - image: 'davydu/copilot-server:2.0.0'
+      ports:
+          - exposedPort: 8777
+      command:
+          - /bin/sh
+      args:
         - '-c'
         - /app/copilot-analyzer
-    memoryLimit: 1Gi
-    type: dockerimage
-    image: 'davydu/copilot-server:2.0.0'
-    alias: copilot
-    env:
+      memoryLimit: 1Gi
+      type: dockerimage
+      alias: copilot
+      env:
         - value: '8777'
           name: SERVER_PORT
   endpoints:
