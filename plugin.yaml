@@ -11,21 +11,6 @@ repository: https://github.com/GuanglongDu/che-analyzer
 category: Language
 firstPublicationDate: '2021-02-22'
 spec:
-  containers:
-    - image: 'davydu/copilot-server:2.0.0'
-      ports:
-          - exposedPort: 8777
-      command:
-          - /bin/sh
-      args:
-        - '-c'
-        - /app/copilot-analyzer
-      memoryLimit: 1Gi
-      type: dockerimage
-      alias: copilot
-      env:
-        - value: '8777'
-          name: SERVER_PORT
   endpoints:
     - name: "copilot"
       public: true
