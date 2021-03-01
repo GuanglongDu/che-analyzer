@@ -1,6 +1,6 @@
 apiVersion: v2
 publisher: ng-plus.dev
-name: che-theia
+name: ngplus-editor
 version: latest
 type: Che Editor
 displayName: theia-ide
