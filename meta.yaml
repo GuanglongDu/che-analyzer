@@ -8,7 +8,7 @@ displayName: ngplus-editor
 description: NG-Plus Editor (based on Eclipse Theia)
 icon: /v3/images/eclipse-che-logo.png
 category: Editor
-repository: "https://github.com/GuanglongDu/che-analyzer"
+repository: "https://github.com/eclipse/che-theia"
 firstPublicationDate: "2021-02-15"
 latestUpdateDate: "2021-02-27"
 spec:
